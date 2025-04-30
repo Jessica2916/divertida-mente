@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <!-- Importando fonte do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <title>Centro de Controle das Emoções</title>
+</head>
+<body>
+    <!-- Container principal -->
+    <div class="container">
+        <h1>Como você está se sentindo?</h1>
+        <br>
+        <!-- Botões de emoções -->
+        <div class="buttons">
+            <button id="Alegria">Alegria</button>
+            <button id="Tristeza">Tristeza</button>
+            <button id="Raiva">Raiva</button>
+            <button id="Medo">Medo</button>
+            <button id="Nojinho">Nojinho</button>
+            <button id="Ansiedade">Ansiedade</button>
+            <button id="Vergonha">Vergonha</button>
+            <button id="Tedio">Tédio</button>
+            <button id="Inveja">Inveja</button>
+        </div>
+            <!-- Área para exibir a imagem e frase da emoção -->
+        <div id="emotion-display" class="emotion-display">
+        <img id="emotion-img" src="" alt="" style="max-width: 200px; display: none;">
+        <p id="emotion-phrase"></p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

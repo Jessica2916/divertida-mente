@@ -1,0 +1,67 @@
+/* Resetando estilos padrão */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Definindo a fonte do corpo da página */
+body{
+    font-family: 'Fredoka', sans-serif;/* Fonte importada do Google Fonts */
+    display: flex;/* Usando Flexbox para centralizar */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;/* Altura total da janela */
+    background-color: #fefefe;/* Cor de fundo clara */
+}
+/* Estilo do container principal */
+.container{
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+/* Estilo dos botões de emoção */
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+button{
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+/* Efeito de hover nos botões */
+button:hover{    
+    transform: scale(1.1);/* Faz o botão aumentar de tamanho */
+}
+.emotion-display{
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+}
+/* Definindo a animação de fade-in */
+@keyframes fadeInUp {
+from {
+    opacity: 0;
+    transform: translateY(20px);/* Começa um pouco abaixo */
+}
+to {
+    opacity: 1;
+    transform: translateY(0);/* Termina no lugar original */
+}
+}
+/* Classe que aplica a animação */
+.animate {
+animation: fadeInUp 0.6s ease;
+}
