@@ -12,9 +12,9 @@ Este é um projeto interativo inspirado no filme **Divertidamente (Inside Out)**
 - 😨 **Medo**
 - 😒 **Nojinho**
 - 💚 **Inveja** (do Divertidamente 2)
-- 😊 Vergonha (do Divertidamente 2)
-- 😣 Ansiedade (do Divertidamente 2)
-- 😴 Tédio (do Divertidamente 2)
+- 🩷 **Vergonha** (do Divertidamente 2)
+- 🧡 **Ansiedade** (do Divertidamente 2)
+- 💜 **Tédio** (do Divertidamente 2)
 
 ---
 
